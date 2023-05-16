@@ -57,12 +57,24 @@ Here is the screenshot by ChatGPT.<br>
 - references
 
 ### Model
-- Game Environment
+#### Game Environment
+- Players: There are two players, namely Player 1 and Player 2. They can be controlled by humans or an AI.
+- Goods: There are two types of goods, namely good1 and good2. Each player has the option to pay a certain amount for each good. The value of the good depend on the
+- Stratagems: There are various stratagems available to players, each with its own effects and outcomes. Players can choose to use stratagems or not.
+- Money: Each player starts with an initial amount of money. The money can be used to pay for goods or can be earned during the game.
+- Communication: Players can communicate with each other through the game. They can choose to tell the truth or deceive their opponent about the amount they are willing to pay for goods.
+- Winning: The player with the higher amount of money at the end of the game is declared the winner. The code keeps track of the number of wins for each player and the frequency of using different stratagems.
+- In general, the game environment is a two-player strategic competition. Each player can choose to use different stratagems or make direct moves. They compete to accumulate the highest amount of money by paying for goods. Players have the option to communicate and can either tell the truth or deceive their opponent about their payment intentions. The game is played in rounds, and the winner is determined based on the player with the highest amount of money at the end of the game.
 - Solution Concept
 - Evaluations: e.g. efficiency and fairness
 
 ### Code
-- Game Environment
+#### Game Environment
+- The game environment is implemented using the following code. It consists of several classes, including the Content, Player1, Player2, and Game classes.
+- The Content class represents the goods available in the game. Each player has an initial amount of these goods.
+- The Player1 and Player2 classes represent the players in the game. They have attributes such as money, goods, stratagems, and their corresponding actions. Players can be controlled by humans or AI, and they make moves based on user input or random selection.
+- The Game class manages the overall game flow. It keeps track of the players, their moves, the winner, and the usage of stratagems. The game is played in rounds, where each player makes their moves, and the money and goods are updated based on the decisions made. The winner is determined based on the final amounts of money, and statistics are maintained regarding the winning player and the usage of different stratagems.
+- Overall, the code provides the necessary structure and logic to simulate the game environment, allowing players to make strategic decisions and compete against each other to achieve the highest amount of money.
 - Strategic plays
 - Equilibruim Evaluations: e.g. belief, strategy, and payoffs
 - oTree Experimental Code 
