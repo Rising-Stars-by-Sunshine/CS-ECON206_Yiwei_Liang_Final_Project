@@ -46,7 +46,7 @@ This methodology provides an overview of the game's structure, the player intera
    
 Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. <br>
 Here is the screenshot by ChatGPT.<br>
-![](gen_by_chatgpt.PNG)
+<img src="gen_by_chatgpt.PNG" alt="Image" width="440">
 
 ## Table of Contents
 
