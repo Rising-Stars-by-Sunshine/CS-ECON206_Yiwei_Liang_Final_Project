@@ -32,7 +32,9 @@ The code implements a game that involves two players (`Player1` and `Player2`) c
 - The game allows for human player interaction, where the human player can make decisions and input pay values for goods when using strategies that depend on opponent's tell values.
 
 This methodology provides an overview of the game's structure, the player interactions, and the progression of rounds. It outlines the key steps involved in each round and how the winner is determined based on player decisions and pay values.
-  ### [Results]
+  ### Results:
+- Paying a higher value increases the probability of winning the game: The code suggests that players who pay a higher value for goods have a higher chance of winning. This implies that investing more money in goods can potentially lead to a favorable outcome. However, it's important to note that paying a higher value also carries a higher risk of losing value. Players need to find a balance between paying enough to increase their winning probability and avoiding excessive losses.
+- Splitting action goods can lead to a more complex situation and reduce damage from irrational opponent options: The code indicates that players have the option to split their actions among different goods. This strategy can make the game more intricate by introducing multiple variables for opponents to consider. It can also serve as a defensive measure against opponents' unpredictable moves, minimizing the impact of their irrational decisions. By diversifying their actions, players can increase their chances of success and mitigate potential losses.
   ### [Intellectual Merits and Practical impacts of your project.]
   
    
