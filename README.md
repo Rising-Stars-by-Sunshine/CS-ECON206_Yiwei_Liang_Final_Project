@@ -3,13 +3,37 @@
 - **Author**: Yiwei Liang, Computation and Design with tracks in Computer Science, Class of 2025, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: Submissions to the Problem Set No. or Final Project for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Project Summary**: 
-  - [Summarize the Background/Motivation]: Dollar auction game is a non-zero-sum sequential game played by two or more bidders, with the objective of winning a dollar bill. The rule of the original game is The auctioneer starts the bidding at a low price, say 1 cent. Bidders can bid in increments of 1 cent, with each bid raising the price of the dollar bill by 1 cent. The highest bidder wins the dollar bill but must pay their final bid price to the auctioneer. The second-highest bidder also loses their bid but does not have to pay anything (Martin 1971, 109-111). In this project, it will base on the game theory and "Thirty-Six Stratagems" to build a game base on the original dollar auction game. The "Thirty-Six Stratagems" is a collection of ancient Chinese military tactics and strategies. It is often attributed to Sun Tzu, the author of "The Art of War," although its origins are not clear. The stratagems provide a set of strategies and tactics for gaining an advantage in various situations, including warfare, politics, business, and personal interactions. By applying the "Thirty-Six Stratagems" into 
-  - [Research Questions]
-  - [Application Scenario]
-  - [Methodology]
-  - [Results]
-  - [Intellectual Merits and Practical impacts of your project.]
+### **Project Summary**: 
+  -  Dollar Auction game is a non-zero-sum sequential game played by two or more bidders, with the objective of winning a dollar bill. In this project, develop a new tool to simulate the dollar auction game and change the original game into an alternative form. Consider the real-world application of Dollar Auction game, it usually explains the effects and consequences of sunk costs and costly competition. Applying this project, we have a more flexible Dollar Auction game environment to simulate more complex situations. At the same time, this project provides new solutions to decrease the probability and amount of lost money. 
+#### Research Question: What are the effects of incorporating strategies from the "Thirty-Six Stratagems" and game theory in an alternative dollar auction game and how to consider a more complex situation compared to the original dollar auction game.
+#### Methodology
+The code implements a game that involves two players (`Player1` and `Player2`) competing against each other. The game progresses through multiple rounds, and the players make decisions regarding their moves, strategies, and payments. Here is an overview of the methodology:
+##### **Class Definitions**:
+- `Content`: Represents the content of the game, including the goods available.
+- `Player1`: Represents Player 1 and contains attributes and methods related to Player 1's moves, strategies, and decisions.
+- `Player2`: Represents Player 2 and contains attributes and methods related to Player 2's moves, strategies, and decisions.
+- `Game`: Represents the game itself and coordinates the interactions between Player 1 and Player 2.
+##### Game Flow:
+1. The game starts with the creation of Player 1 and Player 2 instances, along with the initialization of game-related variables.
+2. Each round of the game consists of the following steps:
+   - Player 1 and Player 2 make their moves by calling the `player_move` method.
+   - If the players are AI-controlled, a random strategy is chosen. Otherwise, the human player is prompted for their actions.
+   - Players decide whether to use stratagems or not. If they choose to use stratagems, they select a specific stratagem and execute it using the `which_stra` method.
+   - Players determine their actual pay values for goods and the tell values they want to convey to the opponent.
+   - The game handles dependent moves, adjusting pay values based on opponent's tell values and a random factor.
+   - Money and goods are updated based on the pay values and a decrease rate.
+   - The game determines the winner based on the players' money. The winning player is recorded, along with the winning strategies used.
+3. The game continues for multiple rounds until completion.
+4. The game keeps track of the real winning results by comparing each player's money to their initial money.
+5. The game ends, and the final results are available, including the winner, winning strategies, and real winning statistics.
+
+- **Additional Feature**:
+
+- The game allows for human player interaction, where the human player can make decisions and input pay values for goods when using strategies that depend on opponent's tell values.
+
+This methodology provides an overview of the game's structure, the player interactions, and the progression of rounds. It outlines the key steps involved in each round and how the winner is determined based on player decisions and pay values.
+  ### [Results]
+  ### [Intellectual Merits and Practical impacts of your project.]
   
    
 Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. 
