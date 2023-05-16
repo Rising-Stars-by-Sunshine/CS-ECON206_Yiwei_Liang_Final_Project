@@ -65,9 +65,8 @@ Here is the screenshot by ChatGPT.<br>
 - Communication: Players can communicate with each other through the game. They can choose to tell the truth or deceive their opponent about the amount they are willing to pay for goods.
 - Winning: The player with the higher amount of money at the end of the game is declared the winner. The code keeps track of the number of wins for each player and the frequency of using different stratagems.
 - In general, the game environment is a two-player strategic competition. Each player can choose to use different stratagems or make direct moves. They compete to accumulate the highest amount of money by paying for goods. Players have the option to communicate and can either tell the truth or deceive their opponent about their payment intentions. The game is played in rounds, and the winner is determined based on the player with the highest amount of money at the end of the game.
-- Solution Concept
-- Evaluations: e.g. efficiency and fairness
-
+- Solution Concept: In this game, the players make strategic decisions based on their chosen strategies and the current state of the game (including their own and the opponent's actions and payoffs). The goal is to maximize their own payoffs over multiple rounds.
+- Evaluations: The efficiency of the game depends on optimal resource allocation and strategy effectiveness. Since all built in strategies has a certain number of winning games, which means all the strategies are reasonable. At the same time, the payoff of the players depends on the strategies they use, which is from the actual value of the good until negative. These shows that the efficiency and the fairness of the game is tested.
 ### Code
 #### Game Environment
 - The game environment is implemented using the following code. It consists of several classes, including the Content, Player1, Player2, and Game classes.
@@ -89,7 +88,6 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 - Melee stratagems is employed in chaotic situations where alliances are uncertain, and players may switch sides. The payoff change depends on the player's ability to adapt and make tactical decisions to minimize losses and maximize gains.
 - Combined stratagems's payoff change depends on the player's ability to anticipate and respond to changes in alliances while maintaining their own interests.
 - Defeat Stratagems is employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's
-- Equilibruim Evaluations: e.g. belief, strategy, and payoffs
 
 ### Spotlight
 - Posters
