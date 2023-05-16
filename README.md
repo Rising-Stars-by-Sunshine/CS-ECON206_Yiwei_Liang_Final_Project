@@ -36,9 +36,17 @@ This methodology provides an overview of the game's structure, the player intera
 - Paying a higher value increases the probability of winning the game: The code suggests that players who pay a higher value for goods have a higher chance of winning. This implies that investing more money in goods can potentially lead to a favorable outcome. However, it's important to note that paying a higher value also carries a higher risk of losing value. Players need to find a balance between paying enough to increase their winning probability and avoiding excessive losses.
 - Splitting action goods can lead to a more complex situation and reduce damage from irrational opponent options: The code indicates that players have the option to split their actions among different goods. This strategy can make the game more intricate by introducing multiple variables for opponents to consider. It can also serve as a defensive measure against opponents' unpredictable moves, minimizing the impact of their irrational decisions. By diversifying their actions, players can increase their chances of success and mitigate potential losses.
   ### [Intellectual Merits and Practical impacts of your project.]
-  
+#### Intellectual Merits:
+- Algorithmic Analysis: The project involves analyzing game strategies and decision-making processes using algorithmic techniques. By examining various factors such as payment values, goods distribution, and strategic choices, it contributes to the understanding of optimal game-playing strategies.
+- Game Theory: The code implementation demonstrates practical applications of game theory principles. It explores the dynamics between two players, their strategies, and the resulting outcomes. This contributes to the field of game theory by providing empirical data on the effectiveness of different strategies.
+#### Practical Impacts:
+- Strategic Planning: The project can be utilized in various practical scenarios that involve strategic planning and decision-making. Industries such as finance, marketing, and military planning could benefit from analyzing game strategies and understanding the implications of different choices.
+- Risk Management: The project sheds light on the risks associated with different actions in a game. It highlights the importance of assessing potential losses and developing risk management strategies. This knowledge can be applied to real-world situations, such as investment decisions or competitive market analysis.
+- In conclusion, the project is useful and meaningful as a tool and new solution.
    
-Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. 
+Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. <br>
+Here is the screenshot by ChatGPT.<br>
+![](gen_by_chatgpt.PNG)
 
 ## Table of Contents
 
