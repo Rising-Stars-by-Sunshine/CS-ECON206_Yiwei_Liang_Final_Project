@@ -90,12 +90,10 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 - Defeat Stratagems is employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's
 
 ### Spotlight
-- Posters
-- Figures
+- Posters<br>
+- 
 - Slides
 - Presentations
-- Review articles
-- Media appearance
 
 ### More about the Author
 - headshot
