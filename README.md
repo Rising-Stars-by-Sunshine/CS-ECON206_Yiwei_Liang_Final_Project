@@ -92,7 +92,7 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 - Posters<br>
 <img src="spotlight/poster.png" alt="Image" width="660">
 - Slides<br>
-[Here is the slides](spotlight/presentation.pptx)
+[spotlight/presentation.pptx](Here is the slides)
 - Presentations
 
 ### More about the Author
