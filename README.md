@@ -1,12 +1,10 @@
-# # Title [How to Choice a Good Title?](https://www.nature.com/articles/s41562-021-01152-2)
+# Alternative Dollar Auction Game: Modeling and Simulation Based on "Thirty-Six Stratagems" and Game Theory.
 ## Project information
-- **Author**: [First Name][Last Name], [Major], [Class], Duke Kunshan University
+- **Author**: Yiwei Liang, Computation and Design with tracks in Computer Science, Class of 2025, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: Submissions to the Problem Set No. or Final Project for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
-[notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
 - **Project Summary**: 
-  - [Summarize the Background/Motivation]
+  - [Summarize the Background/Motivation]: Dollar auction game is a non-zero-sum sequential game played by two or more bidders, with the objective of winning a dollar bill. The rule of the original game is The auctioneer starts the bidding at a low price, say 1 cent. Bidders can bid in increments of 1 cent, with each bid raising the price of the dollar bill by 1 cent. The highest bidder wins the dollar bill but must pay their final bid price to the auctioneer. The second-highest bidder also loses their bid but does not have to pay anything (Martin 1971, 109-111). In this project, it will base on the game theory and "Thirty-Six Stratagems" to build a game base on the original dollar auction game. The "Thirty-Six Stratagems" is a collection of ancient Chinese military tactics and strategies. It is often attributed to Sun Tzu, the author of "The Art of War," although its origins are not clear. The stratagems provide a set of strategies and tactics for gaining an advantage in various situations, including warfare, politics, business, and personal interactions. By applying the "Thirty-Six Stratagems" into 
   - [Research Questions]
   - [Application Scenario]
   - [Methodology]
