@@ -92,7 +92,7 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 - Posters<br>
 <img src="spotlight/poster.png" alt="Image" width="660">
 - Slides<br>
-[(https://github.com/Rising-Stars-by-Sunshine/CS-ECON206_Yiwei_Liang_Final_Project/blob/main/spotlight/presentation.pptx)](Here is the slides)<br>
+[https://github.com/Rising-Stars-by-Sunshine/CS-ECON206_Yiwei_Liang_Final_Project/blob/main/spotlight/presentation.pptx](Here is the slides)<br>
 - Presentations
 
 ### More about the Author
