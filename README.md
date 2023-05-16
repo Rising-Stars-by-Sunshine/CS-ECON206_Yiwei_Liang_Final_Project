@@ -75,10 +75,21 @@ Here is the screenshot by ChatGPT.<br>
 - The Player1 and Player2 classes represent the players in the game. They have attributes such as money, goods, stratagems, and their corresponding actions. Players can be controlled by humans or AI, and they make moves based on user input or random selection.
 - The Game class manages the overall game flow. It keeps track of the players, their moves, the winner, and the usage of stratagems. The game is played in rounds, where each player makes their moves, and the money and goods are updated based on the decisions made. The winner is determined based on the final amounts of money, and statistics are maintained regarding the winning player and the usage of different stratagems.
 - Overall, the code provides the necessary structure and logic to simulate the game environment, allowing players to make strategic decisions and compete against each other to achieve the highest amount of money.
-- Strategic plays
+#### Strategic plays
+##### To analyze the strategic plays based on the provided code, we can examine the winning times and real winning times for different strategies and content configurations:
+- Game Initialization:<br>
+The code sets up different content configurations using the Content class. Two configurations are considered: Content(10, 0) and Content(6, 4). These configurations represent the initial goods available to the players in the game.
+- Strategy Play:<br>
+If the player is an Ai, there will be choices available from the Strategy class, which is based on the "Thirty-Six Stratagems". The strategy has different paying preferences and telling preferences. Based on the set strategies, ai will have its paying ideas. <br>
+Since the strategies are built in Strategy class, this means the avaliable choices for Ai is set in the Strategy class.
+##### Strategy Analysis:
+- Winning Strategems means the player are more confident and perfer to pay more money to make the opponent lose instead of getting the most benefit with the least cost.
+- Enemy dealing stratagemsfocuses on dealing with opponents who are on an equal footing. The payoff change depends on the opponent's strategies and their reactions to the player's actions.
+- Offensive stratagems is used when the player is in an advantageous position and wants to maintain their advantage or further dominate the opponent. The payoff change depends on the player's ability to execute the chosen offensive strategy and prevent the opponent from turning the tables.
+- Melee stratagems is employed in chaotic situations where alliances are uncertain, and players may switch sides. The payoff change depends on the player's ability to adapt and make tactical decisions to minimize losses and maximize gains.
+- Combined stratagems's payoff change depends on the player's ability to anticipate and respond to changes in alliances while maintaining their own interests.
+- Defeat Stratagems is employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's
 - Equilibruim Evaluations: e.g. belief, strategy, and payoffs
-- oTree Experimental Code 
-
 
 ### Spotlight
 - Posters
