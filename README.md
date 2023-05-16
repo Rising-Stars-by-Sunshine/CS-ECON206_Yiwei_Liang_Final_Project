@@ -112,6 +112,31 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
 
 ```
+@misc{verstappen2017thirty,
+  title={The Thirty-Six Strategies},
+  author={Verstappen, Stefan H},
+  year={2017},
+  publisher={Woodbridge Press, Toronto}
+}
+@article{tung1994strategic,
+  title={Strategic management thought in East Asia},
+  author={Tung, Rosalie L},
+  journal={Organizational Dynamics},
+  volume={22},
+  number={4},
+  pages={55--65},
+  year={1994},
+  publisher={Elsevier}
+}
+@article{葛存根2003三十六计,
+  title={《 三十六计》 的变理心理及其管理定位},
+  author={葛存根 and 朱永新},
+  journal={心理科学},
+  volume={26},
+  number={3},
+  pages={411--414},
+  year={2003}
+}
 @article{levin2022bridging,
   title={Bridging level-k to nash equilibrium},
   author={Levin, Dan and Zhang, Luyao},
