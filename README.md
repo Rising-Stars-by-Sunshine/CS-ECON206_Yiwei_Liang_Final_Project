@@ -90,7 +90,7 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 
 ### Spotlight
 - Posters<br>
-<img src="The dollar auction game is a well-known game theory concept that involves a bidding war for a dollar bill, where the highest bidder wins the prize but has to pay the amount of their final bid. In contrast, the sec (1).png" alt="Image" width="660">
+<img src="spotlight/poster.png" alt="Image" width="660">
 - Slides<br>
 [Here is the slides](spotlight/presentation.pptx)
 - Presentations
