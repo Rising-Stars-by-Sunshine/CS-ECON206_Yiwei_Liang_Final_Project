@@ -47,7 +47,6 @@ This methodology provides an overview of the game's structure, the player intera
 Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. <br>
 Here is the screenshot by ChatGPT.<br>
 <img src="gen_by_chatgpt1.PNG" alt="Image" width="660">
-
 ## Table of Contents
 
 - model
@@ -91,13 +90,15 @@ Since the strategies are built in Strategy class, this means the avaliable choic
 
 ### Spotlight
 - Posters<br>
-- 
-- Slides
+<img src="The dollar auction game is a well-known game theory concept that involves a bidding war for a dollar bill, where the highest bidder wins the prize but has to pay the amount of their final bid. In contrast, the sec (1).png" alt="Image" width="660">
+- Slides<br>
+[Here is the slides](spotlight/presentation.pptx)
 - Presentations
 
 ### More about the Author
-- headshot
-- self-introduction
+- <img src="Yiwei.jpg" alt="Image" width="220">
+- self-introduction<br>
+ Yiwei Liang is a sophomore student majored in Computation and Design with tracks in Computer Science at DKU. Yiwei is interested in Ai-painting and voice clone project, has few experience of applying vits and so-vits projects.
 - Final reflections 
   - intellectual growth
   - professional growth
