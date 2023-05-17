@@ -4,14 +4,14 @@
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: Submissions to the Problem Set No. or Final Project for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 ### **Project Summary**: 
-  -  Dollar Auction game is a non-zero-sum sequential game played by two or more bidders, with the objective of winning a dollar bill. In this project, develop a new tool to simulate the dollar auction game and change the original game into an alternative form. Consider the real-world application of Dollar Auction game, it usually explains the effects and consequences of sunk costs and costly competition. Applying this project, we have a more flexible Dollar Auction game environment to simulate more complex situations. At the same time, this project provides new solutions to decrease the probability and amount of lost money. 
-#### Research Question: What are the effects of incorporating strategies from the "Thirty-Six Stratagems" and game theory in an alternative dollar auction game and how to consider a more complex situation compared to the original dollar auction game.
+  -  Dollar Auction game is a non-zero-sum sequential game played by two or more bidders, intending to win a dollar bill. In this project, develop a new tool to simulate the dollar auction game and change the original game into an alternative form. Consider the real-world application of Dollar Auction game, it usually explains the effects and consequences of sunk costs and costly competition. Applying this project, we have a more flexible Dollar Auction game environment to simulate more complex situations. At the same time, this project provides new solutions to decrease the probability and amount of lost money. 
+#### Research Question: What are the effects of incorporating strategies from the "Thirty-Six Stratagems" and game theory in an alternative dollar auction game and how to consider a more complex situation compared to the original dollar auction game?
 #### Methodology
 The code implements a game that involves two players (`Player1` and `Player2`) competing against each other. The game progresses through multiple rounds, and the players make decisions regarding their moves, strategies, and payments. Here is an overview of the methodology:
 ##### **Class Definitions**:
 - `Content`: Represents the content of the game, including the goods available.
 - `Player1`: Represents Player 1 and contains attributes and methods related to Player 1's moves, strategies, and decisions.
-- `Player2`: Represents Player 2 and contains attributes and methods related to Player 2's moves, strategies, and decisions.
+- `Player 2`: Represents Player 2 and contains attributes and methods related to Player 2's moves, strategies, and decisions.
 - `Game`: Represents the game itself and coordinates the interactions between Player 1 and Player 2.
 ##### Game Flow:
 1. The game starts with the creation of Player 1 and Player 2 instances, along with the initialization of game-related variables.
@@ -20,8 +20,8 @@ The code implements a game that involves two players (`Player1` and `Player2`) c
    - If the players are AI-controlled, a random strategy is chosen. Otherwise, the human player is prompted for their actions.
    - Players decide whether to use stratagems or not. If they choose to use stratagems, they select a specific stratagem and execute it using the `which_stra` method.
    - Players determine their actual pay values for goods and the tell values they want to convey to the opponent.
-   - The game handles dependent moves, adjusting pay values based on opponent's tell values and a random factor.
-   - Money and goods are updated based on the pay values and a decrease rate.
+   - The game handles dependent moves, adjusting pay values based on the opponent's tell values and a random factor.
+   - Money and goods are updated based on the pay values and a decreased rate.
    - The game determines the winner based on the players' money. The winning player is recorded, along with the winning strategies used.
 3. The game continues for multiple rounds until completion.
 4. The game keeps track of the real winning results by comparing each player's money to their initial money.
@@ -29,22 +29,22 @@ The code implements a game that involves two players (`Player1` and `Player2`) c
 
 - **Additional Feature**:
 
-- The game allows for human player interaction, where the human player can make decisions and input pay values for goods when using strategies that depend on opponent's tell values.
+- The game allows for human-player interaction, where the human player can make decisions and input pay values for goods when using strategies that depend on the opponent's tell values.
 
 This methodology provides an overview of the game's structure, the player interactions, and the progression of rounds. It outlines the key steps involved in each round and how the winner is determined based on player decisions and pay values.
   ### Results:
 - Paying a higher value increases the probability of winning the game: The code suggests that players who pay a higher value for goods have a higher chance of winning. This implies that investing more money in goods can potentially lead to a favorable outcome. However, it's important to note that paying a higher value also carries a higher risk of losing value. Players need to find a balance between paying enough to increase their winning probability and avoiding excessive losses.
 - Splitting action goods can lead to a more complex situation and reduce damage from irrational opponent options: The code indicates that players have the option to split their actions among different goods. This strategy can make the game more intricate by introducing multiple variables for opponents to consider. It can also serve as a defensive measure against opponents' unpredictable moves, minimizing the impact of their irrational decisions. By diversifying their actions, players can increase their chances of success and mitigate potential losses.
-  ### [Intellectual Merits and Practical impacts of your project.]
+  ### [Intellectual Merits and Practical Impacts of your project.]
 #### Intellectual Merits:
-- Algorithmic Analysis: The project involves analyzing game strategies and decision-making processes using algorithmic techniques. By examining various factors such as payment values, goods distribution, and strategic choices, it contributes to the understanding of optimal game-playing strategies.
+- Algorithmic Analysis: The project involves analyzing game strategies and decision-making processes using algorithmic techniques. Examining various factors such as payment values, goods distribution, and strategic choices, contributes to the understanding of optimal game-playing strategies.
 - Game Theory: The code implementation demonstrates practical applications of game theory principles. It explores the dynamics between two players, their strategies, and the resulting outcomes. This contributes to the field of game theory by providing empirical data on the effectiveness of different strategies.
 #### Practical Impacts:
 - Strategic Planning: The project can be utilized in various practical scenarios that involve strategic planning and decision-making. Industries such as finance, marketing, and military planning could benefit from analyzing game strategies and understanding the implications of different choices.
 - Risk Management: The project sheds light on the risks associated with different actions in a game. It highlights the importance of assessing potential losses and developing risk management strategies. This knowledge can be applied to real-world situations, such as investment decisions or competitive market analysis.
 - In conclusion, the project is useful and meaningful as a tool and new solution.
    
-Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. <br>
+Note: Please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. <br>
 Here is the screenshot by ChatGPT.<br>
 <img src="gen_by_chatgpt1.PNG" alt="Image" width="660">
 ## Table of Contents
@@ -54,18 +54,16 @@ Here is the screenshot by ChatGPT.<br>
 - spotlight
 - more about the author
 - references
-
-### Model
 #### Game Environment
 - Players: There are two players, namely Player 1 and Player 2. They can be controlled by humans or an AI.
-- Goods: There are two types of goods, namely good1 and good2. Each player has the option to pay a certain amount for each good. The value of the good depend on the
-- Stratagems: There are various stratagems available to players, each with its own effects and outcomes. Players can choose to use stratagems or not.
+- Goods: There are two types of goods, namely good1 and good2. Each player has the option to pay a certain amount for each good. The value of the good depends on the
+- Stratagems: There are various stratagems available to players, each with its effects and outcomes. Players can choose to use stratagems or not.
 - Money: Each player starts with an initial amount of money. The money can be used to pay for goods or can be earned during the game.
 - Communication: Players can communicate with each other through the game. They can choose to tell the truth or deceive their opponent about the amount they are willing to pay for goods.
 - Winning: The player with the higher amount of money at the end of the game is declared the winner. The code keeps track of the number of wins for each player and the frequency of using different stratagems.
 - In general, the game environment is a two-player strategic competition. Each player can choose to use different stratagems or make direct moves. They compete to accumulate the highest amount of money by paying for goods. Players have the option to communicate and can either tell the truth or deceive their opponent about their payment intentions. The game is played in rounds, and the winner is determined based on the player with the highest amount of money at the end of the game.
-- Solution Concept: In this game, the players make strategic decisions based on their chosen strategies and the current state of the game (including their own and the opponent's actions and payoffs). The goal is to maximize their own payoffs over multiple rounds.
-- Evaluations: The efficiency of the game depends on optimal resource allocation and strategy effectiveness. Since all built in strategies has a certain number of winning games, which means all the strategies are reasonable. At the same time, the payoff of the players depends on the strategies they use, which is from the actual value of the good until negative. These shows that the efficiency and the fairness of the game is tested.
+- Solution Concept: In this game, the players make strategic decisions based on their chosen strategies and the current state of the game (including their own and the opponent's actions and payoffs). The goal is to maximize their payoffs over multiple rounds.
+- Evaluations: The efficiency of the game depends on optimal resource allocation and strategy effectiveness. Since all built-in strategies hav a certain number of winning games, which means all the strategies are reasonable. At the same time, the payoff of the players depends on the strategies they use, which is from the actual value of the goods until negative. This shows that the efficiency and the fairness of the game are tested.
 ### Code
 #### Game Environment
 - The game environment is implemented using the following code. It consists of several classes, including the Content, Player1, Player2, and Game classes.
@@ -79,14 +77,14 @@ Here is the screenshot by ChatGPT.<br>
 The code sets up different content configurations using the Content class. Two configurations are considered: Content(10, 0) and Content(6, 4). These configurations represent the initial goods available to the players in the game.
 - Strategy Play:<br>
 If the player is an Ai, there will be choices available from the Strategy class, which is based on the "Thirty-Six Stratagems". The strategy has different paying preferences and telling preferences. Based on the set strategies, ai will have its paying ideas. <br>
-Since the strategies are built in Strategy class, this means the avaliable choices for Ai is set in the Strategy class.
+Since the strategies are built in the Strategy class, this means the available choices for Ai are set in the Strategy class.
 ##### Strategy Analysis:
-- Winning Strategems means the player are more confident and perfer to pay more money to make the opponent lose instead of getting the most benefit with the least cost.
+- Winning strategies mean the player is more confident and prefers to pay more money to make the opponent lose instead of getting the most benefit with the least cost.
 - Enemy dealing stratagemsfocuses on dealing with opponents who are on an equal footing. The payoff change depends on the opponent's strategies and their reactions to the player's actions.
-- Offensive stratagems is used when the player is in an advantageous position and wants to maintain their advantage or further dominate the opponent. The payoff change depends on the player's ability to execute the chosen offensive strategy and prevent the opponent from turning the tables.
-- Melee stratagems is employed in chaotic situations where alliances are uncertain, and players may switch sides. The payoff change depends on the player's ability to adapt and make tactical decisions to minimize losses and maximize gains.
-- Combined stratagems's payoff change depends on the player's ability to anticipate and respond to changes in alliances while maintaining their own interests.
-- Defeat Stratagems is employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's
+- Offensive stratagems are used when the player is in an advantageous position and wants to maintain their advantage or further dominate the opponent. The payoff change depends on the player's ability to execute the chosen offensive strategy and prevent the opponent from turning the tables.
+- Melee stratagems are employed in chaotic situations where alliances are uncertain, and players may switch sides. The payoff change depends on the player's ability to adapt and make tactical decisions to minimize losses and maximize gains.
+- Combined stratagems' payoff change depends on the player's ability to anticipate and respond to changes in alliances while maintaining their own interests.
+- Defeat Stratagems are employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's choices.
 
 ### Spotlight
 - Posters<br>
