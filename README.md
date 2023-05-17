@@ -54,7 +54,8 @@ Here is the screenshot by ChatGPT.<br>
 - spotlight
 - more about the author
 - references
-#### Game Environment
+#### Model
+##### Game Environment
 - Players: There are two players, namely Player 1 and Player 2. They can be controlled by humans or an AI.
 - Goods: There are two types of goods, namely good1 and good2. Each player has the option to pay a certain amount for each good. The value of the good depends on the
 - Stratagems: There are various stratagems available to players, each with its effects and outcomes. Players can choose to use stratagems or not.
