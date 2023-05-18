@@ -101,10 +101,8 @@ Since the strategies are built in the Strategy class, this means the available c
 - <img src="Yiwei.jpg" alt="Image" width="220">
 - self-introduction<br>
  Yiwei Liang is a sophomore student majored in Computation and Design with tracks in Computer Science at DKU. Yiwei is interested in Ai-painting and voice clone project, has few experience of applying vits and so-vits projects.
-- Final reflections 
-  - intellectual growth
-  - professional growth
-  - living a purposeful life
+- Final reflections:<br>
+This project has provided valuable opportunities for intellectual growth. By developing a tool to simulate the dollar auction game and incorporating strategies from the "Thirty-Six Stratagems" and game theory, I have deepened my understanding of game theory principles and their practical applications. Exploring algorithmic analysis and strategic planning in a competitive environment has expanded my knowledge in these areas. Additionally, analyzing the effects of different strategies and pay values on the game's outcomes has allowed me to enhance my analytical and critical thinking skills.Through this project, I have gained practical experience in developing a game simulation tool and applying it to real-world scenarios. This experience has strengthened my programming skills and my ability to design and implement complex systems. By incorporating strategies from the "Thirty-Six Stratagems" and game theory, I have also improved my understanding of strategic decision-making and its implications in various fields. These skills and knowledge are transferable and can be applied to future projects that involve strategic planning, risk management, and algorithmic analysis. Participating this projects have practical impacts and intellectual merits aligns with living a purposeful life. By developing a tool that can be used in strategic planning, risk management, and decision-making contexts, I think my experience of both working and living has improved.
 
 ### References
 
