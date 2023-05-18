@@ -87,7 +87,7 @@ Since the strategies are built in the Strategy class, this means the available c
 - Combined stratagems' payoff change depends on the player's ability to anticipate and respond to changes in alliances while maintaining their own interests.
 - Defeat Stratagems are employed when players are at a disadvantage and need to turn the situation in their favor. The payoff change depends on the player's choices.
 #### Overleaf Project
-<object data="https://github.com/Rising-Stars-by-Sunshine/CS-ECON206_Yiwei_Liang_Final_Project/blob/main/code/CSECON206FinalProject.pdf" type="text/html" width="100%" height="600px"></object>
+<object data="code/CSECON206FinalProject.pdf" type="text/html" width="100%" height="600px"></object>
 ### Spotlight
 - Posters<br>
 <img src="spotlight/poster.png" alt="Image" width="660">
