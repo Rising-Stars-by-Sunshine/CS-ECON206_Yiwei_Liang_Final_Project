@@ -111,6 +111,12 @@ This project has provided valuable opportunities for intellectual growth. By dev
 Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
 
 ```
+@book{neumann_1947_theory,
+  author = {Neumann, Von and Oskar Morgenstern},
+  publisher = {Princeton University Press},
+  title = {Theory of Games and Economic Behavior. (Second edition.).},
+  year = {1947}
+}
 @misc{verstappen2017thirty,
   title={The Thirty-Six Strategies},
   author={Verstappen, Stefan H},
@@ -127,24 +133,38 @@ Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *
   year={1994},
   publisher={Elsevier}
 }
-@article{葛存根2003三十六计,
-  title={《 三十六计》 的变理心理及其管理定位},
-  author={葛存根 and 朱永新},
-  journal={心理科学},
-  volume={26},
-  number={3},
-  pages={411--414},
-  year={2003}
+@article{Ge2003ThePsychologyoftheThirty-SixStratagemsandItsManagementPosition,
+title={The Psychology of the Thirty-Six Stratagems and Its Management Position},
+author={Ge Cungen and Zhu Yongxin},
+journal={Psychological Science},
+volume={26},
+number={3},
+pages={411--414},
+year={2003}
 }
-@article{levin2022bridging,
-  title={Bridging level-k to nash equilibrium},
-  author={Levin, Dan and Zhang, Luyao},
-  journal={Review of Economics and Statistics},
-  volume={104},
-  number={6},
-  pages={1329--1340},
-  year={2022},
-  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
+@article{shubik1971dollar,
+  title={The dollar auction game: A paradox in noncooperative behavior and escalation},
+  author={Shubik, Martin},
+  journal={Journal of conflict Resolution},
+  volume={15},
+  number={1},
+  pages={109--111},
+  year={1971},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+@online{wiki-thirty-six-stratagems,
+  author = {Wikipedia},
+  title = {Thirty-Six Stratagems},
+  year = {2023},
+  url = {https://en.wikipedia.org/wiki/Thirty-Six_Stratagems},
+  urldate = {2023-05-18}
+}
+@online{baidu-thirty-six-stratagems,
+  author = {{Baidu Baike}},
+  title = {Thirty-Six Stratagems},
+  year = {2023},
+  url = {https://baike.baidu.com/item/%E4%B8%89%E5%8D%81%E5%85%AD%E8%AE%A1/25221?fr=aladdin},
+  urldate = {2023-05-18}
 }
 ```
 
